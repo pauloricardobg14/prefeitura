@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+body {
+    background-attachment: fixed;
+    font-size: 20px;
+    background-size: cover;
+    background-image: linear-gradient(blue, darkblue, navy);
+    background-repeat: no-repeat;
+}
+
+header {
+    background-image: url('macaé.fundo3.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 50px;
+    max-height: 800px;
+    border-radius: 15px;
+    background-position: center center;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 300px;
+}
+
+
+header > div {
+    background-image: url('logo-padrao.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 53vh;
+}
+section {
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+   text-align: center;
+   font-size: 10vh;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: midnightblue;
+}
+
+main {
+    background-color: rgb(211, 211, 211);
+    border-radius: 15px;
+    height: auto;
+    padding: 15px;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+table {
+    padding: 10px;
+    border-collapse: collapse;
+    margin: auto;
+    width: 50vh;
+    height: 60vh;
+    color: black;
+}
+td {
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+th {
+    border: 1px solid black;
+    padding-left: 10px; 
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a::after {
+    content: '\00A0\1F517';
+}
+
+a::before {
+    content: '\00A0\1F517';
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
