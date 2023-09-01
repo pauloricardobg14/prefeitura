@@ -18,7 +18,7 @@ header {
     background-position: center center;
     margin: auto;
     max-width: 1000px;
-    min-width: 300px;
+    min-width: 200px;
 }
 
 
@@ -40,7 +40,7 @@ main {
     height: auto;
     padding: 15px;
     max-width: 1000px;
-    min-width: 300px;
+    min-width: 200px;
     margin: auto;
     margin-top: 20px;
 }
