@@ -40,7 +40,7 @@ main {
     height: auto;
     padding: 15px;
     max-width: 1000px;
-    min-width: 200px;
+    min-width: 250px;
     margin: auto;
     margin-top: 20px;
 }
@@ -50,7 +50,7 @@ table {
     border-collapse: collapse;
     margin: auto;
     max-width: 500px;
-    min-width: 300px;
+    min-width: 200px;
     height: 60vh;
     color: black;
 }
