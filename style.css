@@ -64,20 +64,24 @@ th {
     padding-left: 10px; 
 }
 
-a {
+#alink {
     color: blue;
     text-decoration: none;
 }
 
-a::after {
+#alink::after {
     content: '\00A0\1F517';
 }
 
-a::before {
+#alink::before {
     content: '\00A0\1F517';
 }
 
-a:hover {
+#alink:hover {
     text-decoration: underline;
     color: darkblue;
+}
+
+aimg {
+    text-decoration: none;
 }
