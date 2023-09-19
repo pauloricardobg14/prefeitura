@@ -68,6 +68,7 @@ td {
 th {
     border: 1px solid black;
     padding-left: 10px; 
+    padding: 5px;
 }
 
 #alink {
@@ -102,11 +103,12 @@ footer {
 }
 
 footer > a {
-    color: dodgerblue;
+    color: blue;
+    text-decoration: none;
 }
 
 footer > a:hover {
-    color: dodgerblue;
+    color: mediumblue;
     text-decoration: underline;
-    text-decoration-color: cornflowerblue;
+    text-decoration-color: darkblue;
 }
