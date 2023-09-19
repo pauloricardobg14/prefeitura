@@ -88,6 +88,25 @@ th {
     color: darkblue;
 }
 
-aimg {
-    text-decoration: none;
+footer {
+    max-width: 1000px;
+    min-width: 250px;
+    margin: 0px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+footer > a {
+    color: dodgerblue;
+}
+
+footer > a:hover {
+    color: dodgerblue;
+    text-decoration: underline;
+    text-decoration-color: cornflowerblue;
 }
